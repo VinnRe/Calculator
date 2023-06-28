@@ -11,7 +11,7 @@ public:
     double result;
     Calculation* next;
 
-    Calculation(const string& exp, double res) : expression(exp), result(res), next(nullptr) {}
+    Calculation(const string& exp, double res) : expression(exp), result(res), next(nullptr) {} // Constructor Initialization list
 };
 
 class History {
@@ -171,4 +171,3 @@ int main() {
 
     return 0;
 }
-
